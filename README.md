@@ -11,7 +11,7 @@ This repo contains Hyper key hack & my config :heart:
 
 1. Run the following command in your terminal
 
-`bash <(curl -s https://raw.githubusercontent.com/Ragnar-H/slate-setup/master/install.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/martinaastrupolsen/slate-setup/master/install.sh)`
 
 2. Start Slate and Karabiner-elements
 

@@ -27,13 +27,13 @@ brew cask install karabiner-elements
 echo "Dependencies installed. Fetching ragnar-h configs"
 
 # Slate configs
-curl -o ~/.slate https://raw.githubusercontent.com/Ragnar-H/slate-setup/master/.slate
+curl -o ~/.slate https://raw.githubusercontent.com/martinaastrupolsen/slate-setup/master/.slate
 
 mkdir ~/.config
 mkdir ~/.config/karabiner
 
 # Karabiner elements
-curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/Ragnar-H/slate-setup/master/karabiner.json
+curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/martinaastrupolsen/slate-setup/master/karabiner.json
 
 echo "Configs set. Slate and Karabiner-elements might require a reload to take effect"
 
