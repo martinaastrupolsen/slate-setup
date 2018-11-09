@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 
 RED='\033[0;31m'
 NC='\033[0m' # No Color
@@ -24,13 +25,9 @@ brew cask install slate
 # Install Karabiner-elements for hyper key
 brew cask install karabiner-elements
 
-echo "Dependencies installed. Fetching ragnar-h configs"
+echo "Dependencies installed. Fetching karabiner config"
 
-# Slate configs
-curl -o ~/.slate https://raw.githubusercontent.com/martinaastrupolsen/slate-setup/master/.slate
-
-mkdir ~/.config
-mkdir ~/.config/karabiner
+mkdir -p ~/.config/karabiner
 
 # Karabiner elements
 curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/martinaastrupolsen/slate-setup/master/karabiner.json
